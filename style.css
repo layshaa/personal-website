@@ -1,0 +1,230 @@
+#about-me-div {
+    size: 200px;
+}
+
+#about-me-p {
+    width: 900px;
+}
+
+.photo-p {
+    width: 650px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #F8EBFF;
+    padding: 20px;
+    height: 50px;
+    border-bottom: 2px solid #190028;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    width: 500px;
+    
+}
+
+.nav-list {
+    display: inline-block;
+    font-size: 20px;
+    list-style: circle;
+}
+
+.circle-bullet {
+    list-style: disc;
+    font-size: 20px;
+}
+
+.circle-bullet::marker {
+    color: #190028;
+}
+
+h1 {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.titles {
+    color: #32004F;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E1ADFF;
+}
+
+a:link {
+    color: #5A038C;
+}
+
+.passions-p {
+    font-size: 16px;
+    width: 250px;
+    text-align: center;
+}
+
+.passion-clusters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.passion-titles {
+    font-size: 21px;
+    color: #4E007A;
+}
+
+.photo-album {
+    width: 250px;
+    border-radius: 25px;
+    border: 2px solid #190028;
+}
+
+#passions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#passions-section {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-me-section {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#shpe-2-image-cluster {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 450px;
+
+}
+
+.brazil-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+}
+
+#accenture-photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 550px;
+}
+
+#photo-197 {
+    height: 450px;
+    border-radius: 25px;
+    border: 2px solid #190028;
+}
+
+p, h1, h2, h3, li {
+    font-family: "Noto Sans", sans-serif;
+    color: #190028;
+}
+
+.footer-text {
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+#laysha {
+    width: 300px;
+    border-radius: 25px;
+    border: 2px solid #190028;
+}
+
+h1, .header-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+#camp-photo {
+    width: 500px;
+    border-radius: 25px;
+    border: 2px solid #190028;
+}
+
+#buildher-photo {
+    width: 500px;
+    border-radius: 25px;
+    border: 2px solid #190028;
+}
+
+#brazil-section {
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 650px;
+}
+
+#accenture-section {
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    height: 650px;
+}
+
+#photo-album-description {
+    display: flex;
+    justify-content: center;
+}
+
+#about-me-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
